@@ -127,6 +127,44 @@ claude
 
 Kunci API (mis. `NVIDIA_API_KEY`) hanya boleh lewat environment variable, tidak pernah ditulis ke file.
 
+### Setup untuk pemula (dan untuk AI yang membantu memasang)
+
+Langkah ini memakai alat yang sama dengan bagian "Memulai" di atas. Tidak perlu tahu programming untuk mengikutinya.
+
+| Alat | Cek dengan | Keterangan |
+|---|---|---|
+| Claude Code | `claude --version` | Pasang dari https://claude.com/product/claude-code |
+| Node.js 20+ | `node --version` | https://nodejs.org (versi LTS) |
+| Python 3.10+ | `python --version` | https://python.org |
+| FFmpeg | `ffmpeg -version` | https://ffmpeg.org |
+| Git | `git --version` | https://git-scm.com (untuk clone dan update) |
+
+**Cara termudah: minta Claude yang memeriksa.** Clone repo ini, buka foldernya di terminal, lalu jalankan `claude` dan tempel:
+
+```
+Periksa setup repo ini untuk saya. Cek claude, node, python, dan ffmpeg terpasang (beri tahu versi
+dan cara memasang yang belum ada). Jalankan pasang-agent.bat. Lalu cek folder .claude/agents dan
+.claude/skills sudah terisi. Jangan mengisi kunci API, jangan menghapus folder, dan jangan
+membuat atau mengunggah video tanpa izin saya.
+```
+
+**Cek berhasil:** `.\pasang-agent.bat` selesai tanpa error, lalu `claude` membuka sesi dan menyebut LUCIFER saat diminta memperkenalkan diri.
+
+**Kalau tidak jalan:**
+
+| Masalah | Solusi |
+|---|---|
+| `pasang-agent.bat` tidak menemukan agen | Pastikan kamu menjalankannya dari folder root repo, bukan dari subfolder |
+| `ffmpeg` tidak dikenal | Pasang FFmpeg dan tambahkan folder `bin`-nya ke PATH, lalu buka terminal baru |
+| Render lambat atau gagal kehabisan memori | Tutup aplikasi lain dan render satu video per waktu (GPU RTX 3070 dengan 8 GB VRAM) |
+| Folder `productions/` belum ada | Salin `productions/_TEMPLATE/` untuk tiap video, sesuai alur LUCIFER |
+
+**Yang perlu kamu siapkan sendiri:** isi bagian `[ISI]` di `channels/channel-01/bible.md`, dan `audio/vo.mp3` dibuat sendiri di ElevenLabs. Agen tidak pernah membuat suara.
+
+## Lisensi
+
+Source-available, **non-komersial**. Boleh dilihat, dipakai, dan dimodifikasi untuk keperluan pribadi dan belajar. Dilarang dijual, didistribusikan ulang, atau dipakai untuk melatih model AI tanpa izin tertulis. Detail lengkap di [LICENSE](LICENSE). Aset pihak ketiga tetap mengikuti lisensi masing-masing (lihat [assets/README.md](assets/README.md)).
+
 ## Yang tidak ikut repo
 
 Sesuai `.gitignore`:
