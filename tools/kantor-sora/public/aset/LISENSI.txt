@@ -1,0 +1,10 @@
+Sumber aset (disalin dari D:\AA SMILEYY\CLAUDE STORAGE\copy style motion\assets)
+
+perabot/   Kenney "Furniture Kit"            https://kenney.nl   Lisensi CC0 1.0 (domain publik)
+tekstur/   Kenney "Retro Textures Fantasy"   https://kenney.nl   Lisensi CC0 1.0
+           langit-neraka.jpg = skybox-night (Kenney skyboxes, CC0) yang diwarnai ulang merah
+pohon/     Quaternius "Stylized Nature" (DeadTree_*)   https://quaternius.com   Lisensi CC0 1.0
+hewan/     Quaternius "Animated Animals"               https://quaternius.com   Lisensi CC0 1.0
+
+Catatan: folder sumber tidak menyertakan file lisensi; status CC0 di atas mengikuti halaman
+resmi Kenney dan Quaternius. Cek ulang di situsnya sebelum dipakai di video komersial.

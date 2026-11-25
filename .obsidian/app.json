@@ -1,0 +1,12 @@
+{
+  "userIgnoreFilters": [
+    "REFFERENCES/favorite screenshot/",
+    "arsip/",
+    "assets/assets/",
+    "node_modules/",
+    "tools/cartoon-short/_arsip/",
+    "tools/cartoon-short/out/",
+    "tools/cartoon-short/src/",
+    "tools/kantor-sora/data/"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "casino-short",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "tsc": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.8.2",
+    "@react-three/postprocessing": "^3.2.2",
+    "@remotion/bundler": "^4.0.546",
+    "@remotion/cli": "^4.0.546",
+    "@remotion/renderer": "^4.0.546",
+    "@remotion/three": "^4.0.546",
+    "@types/react": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "postprocessing": "^6.39.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.546",
+    "three": "^0.187.0",
+    "typescript": "^7.0.2"
+  }
+}

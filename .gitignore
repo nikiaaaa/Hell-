@@ -1,0 +1,54 @@
+# File besar & hasil produksi (jangan masuk GitHub)
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.blend
+*.blend1
+*.blend2
+productions/*/footage/
+productions/*/render/
+productions/*/export/
+productions/*/audio/*
+!productions/*/audio/*.md
+!productions/*/audio/words.json
+
+# Referensi pihak ketiga (bahan studi pribadi) & aset 3D besar: hanya README yang ikut
+REFFERENCES/*
+!REFFERENCES/README.md
+assets/assets/
+
+# Rahasia & data lokal
+.env
+*.key
+.claude/settings.local.json
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/diagnostic.log
+.obsidian/workspace*.json
+tools/kantor-sora/data/runs/
+tools/kantor-sora/data/runs.json
+tools/kantor-sora/data/divisi.json
+
+# Build & dependensi
+node_modules/
+dist/
+tools/cartoon-short/out/
+tools/cartoon-short/public/footage/
+__pycache__/
+*.pyc
+
+# Arsip sesi lain (lokal)
+.arsip/
+
+# Sistem
+Thumbs.db
+desktop.ini
+
+# node_modules yang berupa junction/symlink
+node_modules
+
+# Plugin Obsidian pihak ketiga (berisi kode & kunci dari sumbernya, tidak disimpan di repo)
+.obsidian/plugins/
